@@ -359,7 +359,7 @@ export const feature18 = {
       title: 'GDG - MIT',
       title2: 'Be a Leader, Be a Create, Be a Game Changer',
       description: 'Google Developer Groups On Campus - MIT (GDG MIT) is a student-run community focused on fostering technological innovation and skill development. We provide a platform for students to learn, build, and connect with other developers. Through workshops, hackathons, and mentorship programs, we empower students to explore cutting-edge technologies and bring their ideas to life. Join us in shaping the future of tech!',
-      image: '/assets/images/graphics/default/admin-dashboard.png',
+      image: '/assets/images/clubs/gdg-logo.png',
       actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
     },
     {
