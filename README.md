@@ -34,18 +34,6 @@ npm run dev
 - [Material UI V6](https://mui.com/core/)
 - Next.js
 
-## Author
-
-SaasAble is managed by the team Phoenixcoded
-
-## Support
-
-https://support.phoenixcoded.net/
-
-## Issues
-
-Please generate a [GitHub issue](https://github.com/phoenixcoded/saasable-ui/issues) if you found a bug in any version. We will try our best to resolve the issue.
-
 ## License
 
 - MIT
