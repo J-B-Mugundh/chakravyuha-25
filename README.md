@@ -4,8 +4,6 @@
 
 - [Getting started](#getting-started)
 - [Technology stack](#technology-stack)
-- [Author](#author)
-- [Issues?](#issues)
 - [License](#license)
 
 ## Getting Started
