@@ -1,37 +1,19 @@
-# ChakraVyuha'25
+# SaasAble - Material UI Next.js App Router based Free project
 
-## Table of contents
+This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app) with Material UI installed.
 
-- [Getting started](#getting-started)
-- [Technology stack](#technology-stack)
-- [License](#license)
+## How to use
 
-## Getting Started
-
-1. Clone from Github
-
-```
-git clone https://github.com/<your-username>/chakravyuha-25.git
+```bash
+cd ui-kit
 ```
 
-2. Goto `uikit` directory and Install packages
+Install it and run:
 
-```
+```bash
 npm install
-```
-
-3. Run project
-
-```
 npm run dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Technology stack
-
-- [Material UI V6](https://mui.com/core/)
-- Next.js
-
-## License
-
-- MIT
