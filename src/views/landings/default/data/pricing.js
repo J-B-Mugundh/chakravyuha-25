@@ -1,5 +1,4 @@
 // @project
-import { BUY_NOW_URL, FREEBIES_URL } from '@/path';
 
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
