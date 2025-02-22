@@ -1,7 +1,5 @@
 // @project
 
-const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
-
 export const pricing = {
   "heading": "Why Sponsor Us?",
   "caption": "Sponsoring Chakravyuha’25 extends your brand’s visibility beyond MIT, reaching students and tech enthusiasts from top institutions across the country. This fest isn't just limited to MIT—it serves as a hub for collaboration, competition, and innovation, attracting talent from leading engineering colleges, universities, and startups.",
@@ -46,6 +44,5 @@ export const pricing = {
       exploreLink: { children: 'Learn More', href: "/"},
       featuresID: [9, 10, 11, 12]
     }
-
   ]
 };
