@@ -8,9 +8,9 @@ const imagePrefix = '/assets/images/presentation';
 import branding from '@/branding.json';
 
 export const other = {
-  heading: `${branding.brandName} Blocks `,
-  description: 'Explore a wide range of ready-made blocks—from Hero to CTA, Features, and more to speed up your design process.',
-  primaryBtn: { children: 'Explore all Blocks', href: SECTION_PATH },
+  heading: `${branding.brandName} Events `,
+  description: 'Explore the Arena of Innovation – Competitions & Challenges',
+  primaryBtn: { children: 'Explore all Events', href: SECTION_PATH },
   sections: [
     {
       animationDelay: 0.2,

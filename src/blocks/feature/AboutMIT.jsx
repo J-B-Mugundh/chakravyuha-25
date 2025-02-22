@@ -46,7 +46,7 @@ function AboutMIT() {
         >
           <Stack spacing={2} textAlign={downMD ? 'center' : 'justify'}>
             <Typography variant="h4" fontWeight={600}>
-              Madras Institute of Technology (MIT), Anna University
+              About Madras Institute of Technology (MIT)
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'justify' }}>
               Established in 1949 by the visionary C. Rajam, the Madras Institute of Technology (MIT) is 
