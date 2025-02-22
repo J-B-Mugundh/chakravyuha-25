@@ -70,11 +70,11 @@ export default function Pricing9({ heading, caption, features, plans }) {
                           </Typography>
                           <Stack>
                             <Typography component="div" variant="h1">
-                              ${plan.offerPrice && plan.offerPrice > 0 ? plan.offerPrice : plan.price}
+                            ₹{plan.offerPrice && plan.offerPrice > 0 ? plan.offerPrice : plan.price}
                             </Typography>
                             {!!(plan.offerPrice && plan.offerPrice > 0) && (
                               <Typography variant="h3" sx={{ color: 'grey.700', textDecoration: 'line-through' }}>
-                                ${plan.price}
+                              ₹{plan.price}
                               </Typography>
                             )}
                           </Stack>

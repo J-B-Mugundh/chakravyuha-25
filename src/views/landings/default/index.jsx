@@ -2,6 +2,8 @@
 
 // @project
 import { Feature20 } from '@/blocks/feature';
+import { AboutMIT } from '@/blocks/feature/AboutMIT';
+import { AboutChakraVyuha } from '@/blocks/feature/AboutChakraVyuha';
 import { Hero17 } from '@/blocks/hero';
 import LazySection from '@/components/LazySection';
 import useDataThemeMode from '@/hooks/useDataThemeMode';
@@ -19,8 +21,7 @@ import {
   hero,
   integration,
   other,
-  pricing,
-  testimonial
+  pricing
 } from './data';
 
 /***************************  PAGE - MAIN  ***************************/
@@ -31,7 +32,9 @@ export default function Main() {
   return (
     <>
       <Hero17 {...hero} />
-      <Feature20 {...feature20} />
+      {/* <Feature20 {...feature20} /> */}
+      <AboutMIT/>
+      <AboutChakraVyuha/>
 
       <LazySection
         sections={[
@@ -53,7 +56,6 @@ export default function Main() {
 
       <LazySection
         sections={[
-          { importFunc: () => import('@/blocks/testimonial').then((module) => ({ default: module.Testimonial10 })), props: testimonial },
           { importFunc: () => import('@/blocks/clientele').then((module) => ({ default: module.Clientele3 })), props: clientele },
           { importFunc: () => import('@/blocks/pricing').then((module) => ({ default: module.Pricing9 })), props: pricing }
         ]}

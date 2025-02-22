@@ -36,9 +36,9 @@ const data = [
     title: 'Company',
     menu: [
       {
-        label: 'Why Phoenixcoded?',
+        label: 'Why Chakravyuha?',
         link: {
-          href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+          href: 'https://blog.saasable.io/a-decade-of-expertise-the-chakravyuha-story-and-why-you-should-trust-us',
           ...linkProps
         }
       },

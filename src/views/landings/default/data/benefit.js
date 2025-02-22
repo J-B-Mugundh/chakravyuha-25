@@ -1,10 +1,10 @@
 export const benefit = {
   heading: 'Endless Possibilities',
-  caption: 'Everything you need to design both the marketing site and the admin interface for your SaaS product.',
+  caption: "This fest isn't just limited to MIT—it serves as a hub for collaboration, competition, and innovation, attracting talent from leading engineering colleges, universities, and startups.",
   blockDetail: [
-    { animationDelay: 0.1, counter: 200, defaultUnit: '+', caption: 'Blocks' },
-    { animationDelay: 0.2, counter: 50, defaultUnit: '+', caption: 'Admin Pages' },
-    { animationDelay: 0.3, counter: 7, defaultUnit: '+', caption: 'Landing Demos' },
-    { animationDelay: 0.4, counter: 1200, defaultUnit: '+', caption: 'Hours Saved' }
+    { animationDelay: 0.1, counter: 30, defaultUnit: '+', caption: 'Events' },
+    { animationDelay: 0.2, counter: 15, defaultUnit: '+', caption: 'Workshops' },
+    { animationDelay: 0.3, counter: 10, defaultUnit: '+', caption: 'Technical Clubs' },
+    { animationDelay: 0.4, counter: 50, defaultUnit: 'K+', caption: 'Cash Prizes' }
   ]
 };

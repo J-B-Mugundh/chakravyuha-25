@@ -60,7 +60,7 @@ const data = {
       itemsList: [
         { title: 'Blog', link: { href: 'https://blog.saasable.io/', target: '_blank' } },
         { title: 'Documentation', link: { href: DOCS_URL, target: '_blank' } },
-        { title: 'Support', link: { href: 'https://support.phoenixcoded.net/', target: '_blank' } },
+        { title: 'Support', link: { href: 'https://support.chakravyuha.net/', target: '_blank' } },
         {
           title: 'Discord',
           link: { href: 'https://discord.com/invite/2WpeGsQH98', target: '_blank' }

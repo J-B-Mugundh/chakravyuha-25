@@ -17,7 +17,7 @@ import { FIGMA_LINK } from '@/utils/constant';
 
 let breadcrumbs = [
   { title: 'Home', to: process.env.NEXT_PUBLIC_BASE_NAME || '/' },
-  { title: 'Blocks', to: SECTION_PATH },
+  { title: 'Events', to: SECTION_PATH },
   { title: 'Terms & Conditions' }
 ];
 

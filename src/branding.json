@@ -1,18 +1,18 @@
 {
-  "brandName": "SaasAble",
-  "title": "React Multipurpose UI Kit and Dashboard Template",
+  "brandName": "ChakraVyuha",
+  "title": "MIT's Technical Symposium",
   "company": {
-    "name": "Phoenixcoded",
-    "url": "https://phoenixcoded.net",
+    "name": "ChakraVyuha",
+    "url": "https://mitindia.edu/",
     "socialLink": {
-      "linkedin": "https://in.linkedin.com/company/phoenixcoded",
+      "linkedin": "https://in.linkedin.com/company/chakravyuha",
       "instagram": "#",
-      "facebook": "https://www.facebook.com/Phoenixcoded/",
-      "youtube": "https://www.youtube.com/@Phoenixcoded",
-      "github": "https://github.com/phoenixcoded",
-      "dribble": "https://dribbble.com/Phoenixcoded",
+      "facebook": "https://www.facebook.com/chakravyuha",
+      "youtube": "https://www.youtube.com/@chakravyuha",
+      "github": "https://github.com/chakravyuha",
+      "dribble": "https://dribbble.com/chakravyuha",
       "discord": "https://discord.com/invite/AfJqqYeG",
-      "support": "https://support.phoenixcoded.net"
+      "support": "https://support.chakravyuha.net"
     }
   },
   "logo": {

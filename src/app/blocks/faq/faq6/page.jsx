@@ -93,7 +93,7 @@ const data = {
       category: 'Support & Updates'
     }
   ],
-  getInTouch: { link: { children: 'Get in Touch', href: 'https://support.phoenixcoded.net/', target: '_blank' } },
+  getInTouch: { link: { children: 'Get in Touch', href: 'https://support.chakravyuha.net/', target: '_blank' } },
   categories: ['General', 'Pricing & Licenses', 'Support & Updates'],
   activeCategory: 'General'
 };

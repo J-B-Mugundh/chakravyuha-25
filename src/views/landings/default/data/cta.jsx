@@ -7,10 +7,10 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 export const cta4 = {
-  headLine: 'Why Trust Phoenixcoded for Your Dashboard Template Needs?',
+  headLine: 'Why Trust chakravyuha for Your Dashboard Template Needs?',
   primaryBtn: {
     children: 'Read Our story',
-    href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+    href: 'https://blog.saasable.io/a-decade-of-expertise-the-chakravyuha-story-and-why-you-should-trust-us',
     target: '_blank',
     rel: 'noopener noreferrer'
   },
