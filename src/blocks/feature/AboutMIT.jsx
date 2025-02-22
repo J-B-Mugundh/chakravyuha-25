@@ -50,14 +50,14 @@ function AboutMIT() {
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'justify' }}>
               Established in 1949 by the visionary C. Rajam, the Madras Institute of Technology (MIT) is 
-              one of India's premier engineering institutions. As a part of **Anna University**, MIT has been 
-              at the forefront of **technological innovation and academic excellence**, producing some of the 
+              one of India's premier engineering institutions. As a part of Anna University, MIT has been 
+              at the forefront of technological innovation and academic excellence, producing some of the 
               nation’s most brilliant engineers, scientists, and researchers.
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'justify' }}>
               MIT is known for its pioneering efforts in Aeronautical Engineering, Electronics, Computer Science, 
               and Robotics, among other disciplines. With a strong research culture, cutting-edge laboratories, 
-              and a dynamic learning environment**, the institution continuously pushes the boundaries of innovation.
+              and a dynamic learning environment, the institution continuously pushes the boundaries of innovation.
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ textAlign: 'justify' }}>
               As an integral part of Anna University, MIT continues to shape the future of technology, empowering 
