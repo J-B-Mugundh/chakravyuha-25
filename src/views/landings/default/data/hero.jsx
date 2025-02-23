@@ -1,9 +1,9 @@
-// @mui
-import CardMedia from '@mui/material/CardMedia';
+"use client";
+
+import { useState, useEffect } from 'react';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
-import { useState, useEffect } from 'react';
 import { SECTION_PATH } from '@/path';
 
 // Countdown Timer Component
