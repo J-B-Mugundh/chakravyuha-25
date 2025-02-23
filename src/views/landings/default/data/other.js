@@ -14,43 +14,43 @@ export const other = {
   sections: [
     {
       animationDelay: 0.2,
-      title: 'Hero',
-      subTitle: '17 Different Variants',
+      title: 'Street Coding',
+      subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/hero-light.svg`,
       link: PAGE_PATH.hero
     },
     {
       animationDelay: 0.3,
-      title: 'Call to Action',
-      subTitle: '12 Different Variants',
+      title: 'OSPC',
+      subTitle: 'Time: Mar 8th&9th      venue: IT Lab',
       image: `${imagePrefix}/cta-light.svg`,
       link: PAGE_PATH.cta
     },
     {
       animationDelay: 0.4,
-      title: 'Feature',
-      subTitle: '23 Different Variants',
+      title: 'Bug Hunt',
+      subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/feature-light.svg`,
       link: PAGE_PATH.feature
     },
     {
       animationDelay: 0.2,
-      title: 'Benefits',
-      subTitle: '9 Different Variants',
+      title: 'My Sequel ',
+      subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/benefits-light.svg`,
       link: PAGE_PATH.benefit
     },
     {
       animationDelay: 0.3,
-      title: 'Process',
-      subTitle: '7 Different Variants',
+      title: 'Sight on Site ',
+      subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/process-light.svg`,
       link: PAGE_PATH.process
     },
     {
       animationDelay: 0.4,
-      title: 'Integration',
-      subTitle: '8 Different Variants',
+      title: 'Tech Connector',
+      subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/integration-light.svg`,
       link: PAGE_PATH.integration
     }
