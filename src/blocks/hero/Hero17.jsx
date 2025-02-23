@@ -1,7 +1,7 @@
 'use client';
 import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
-
+import CardMedia from '@mui/material/CardMedia'
 // @mui
 import { useTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
