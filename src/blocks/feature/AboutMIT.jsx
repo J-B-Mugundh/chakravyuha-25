@@ -44,6 +44,12 @@ function AboutMIT() {
           transition={{ duration: 0.5 }}
           style={{ width: downMD ? '100%' : '50%' }}
         >
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
           <Stack spacing={2} textAlign={downMD ? 'center' : 'justify'}>
             <Typography variant="h4" fontWeight={600}>
               About Madras Institute of Technology (MIT)
