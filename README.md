@@ -4,10 +4,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-nex
 
 ## How to use
 
-```bash
-cd ui-kit
-```
-
 Install it and run:
 
 ```bash
