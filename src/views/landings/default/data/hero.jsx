@@ -1,5 +1,5 @@
 "use client";
-
+import CardMedia from '@mui/material/CardMedia';
 import { useState, useEffect } from 'react';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
