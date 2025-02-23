@@ -1,5 +1,7 @@
 'use client';
 
+import { useEffect } from 'react';
+
 // @project
 import { Feature20 } from '@/blocks/feature';
 import { AboutMIT } from '@/blocks/feature/AboutMIT';
@@ -29,12 +31,23 @@ import {
 export default function Main() {
   useDataThemeMode();
 
+  useEffect(() => {
+    window.history.replaceState(null, '', '/');
+  }, []);
+
   return (
     <>
-      <Hero17 {...hero} />
-      {/* <Feature20 {...feature20} /> */}
-      <AboutMIT/>
-      <AboutChakraVyuha/>
+      {/* Add id="home" for navigation */}
+      <div id="home">
+        <Hero17 {...hero} />
+      </div>
+
+      {/* Add id="about" for navigation */}
+      <div id="about">
+        <AboutMIT />
+      </div>
+
+      <AboutChakraVyuha />
 
       <LazySection
         sections={[
@@ -48,15 +61,12 @@ export default function Main() {
       <LazySection
         sections={[
           { importFunc: () => import('@/blocks/feature').then((module) => ({ default: module.Feature18 })), props: feature18 },
-          // { importFunc: () => import('@/blocks/feature').then((module) => ({ default: module.Feature21 })), props: feature21 },
-          // { importFunc: () => import('@/blocks/cta').then((module) => ({ default: module.Cta4 })), props: cta4 }
         ]}
         offset="200px"
       />
 
       <LazySection
         sections={[
-          // { importFunc: () => import('@/blocks/clientele').then((module) => ({ default: module.Clientele3 })), props: clientele },
           { importFunc: () => import('@/blocks/pricing').then((module) => ({ default: module.Pricing9 })), props: pricing }
         ]}
         offset="200px"
@@ -64,11 +74,13 @@ export default function Main() {
 
       <LazySection
         sections={[
-          // { importFunc: () => import('@/blocks/cta').then((module) => ({ default: module.Cta5 })), props: cta5 },
           { importFunc: () => import('@/blocks/faq').then((module) => ({ default: module.Faq6 })), props: faq }
         ]}
         offset="200px"
       />
+
+      {/* Add id="contact" for navigation at the end */}
+      <div id="contact"></div>
     </>
   );
 }
