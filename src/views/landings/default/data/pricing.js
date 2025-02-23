@@ -1,7 +1,7 @@
 // @project
 
 export const pricing = {
-  "heading": "Why Sponsor Us?",
+  "heading": "Sponsorship Benefits & Tiers",
   "caption": "Sponsoring Chakravyuha’25 extends your brand’s visibility beyond MIT, reaching students and tech enthusiasts from top institutions across the country. This fest isn't just limited to MIT—it serves as a hub for collaboration, competition, and innovation, attracting talent from leading engineering colleges, universities, and startups.",
   "features": [
     { "id": 1, "label": "Exclusive branding as 'Chakravyuha’25 Presented by [Your Brand]'" },

@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 // @project
 import { GraphicsCard } from '@/components/cards';
 import SvgIcon from '@/components/SvgIcon';
+import { DOCS_URL } from '@/path';
 
 // @types
 
@@ -19,15 +20,15 @@ export default function IconCard({ icon, title, content, iconAvatar, contentCard
 
   return (
     <GraphicsCard sx={{ height: 1 }}>
-      <Stack sx={{ gap: iconAvatar || contentCard ? 2.5 : 2, height: 1 }} {...(stackProps && { ...stackProps })}>
+      <Stack sx={{ gap: iconAvatar || contentCard ? 2.5 : 2, height: 1 }} {...stackProps}>
         <Box sx={{ px: boxPadding, pt: boxPadding, lineHeight: 0 }}>
           {iconAvatar ? (
             <Avatar sx={{ width: 60, height: 60, bgcolor: typeof iconAvatar === 'boolean' ? 'grey.300' : iconAvatar }}>
-              <SvgIcon {...(typeof icon === 'string' ? { name: icon } : { ...icon })} />
+              <SvgIcon {...(typeof icon === 'string' ? { name: icon } : icon)} />
             </Avatar>
           ) : (
             <Box>
-              <SvgIcon {...(typeof icon === 'string' ? { name: icon } : { ...icon })} size={40} />
+              <SvgIcon {...(typeof icon === 'string' ? { name: icon } : icon)} size={40} />
             </Box>
           )}
         </Box>
@@ -36,12 +37,12 @@ export default function IconCard({ icon, title, content, iconAvatar, contentCard
         >
           <Stack sx={{ gap: { xs: 1, sm: 1.5 } }}>
             {title && (
-              <Typography variant="h4" {...(titleProps && { ...titleProps })}>
+              <Typography variant="h4" {...titleProps}>
                 {title}
               </Typography>
             )}
             {content && (
-              <Typography {...(contentProps && { ...contentProps })} sx={{ color: 'text.secondary' }}>
+              <Typography {...contentProps} sx={{ color: 'text.secondary' }}>
                 {content}
               </Typography>
             )}
