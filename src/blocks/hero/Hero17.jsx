@@ -1,10 +1,12 @@
 'use client';
 import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
-
 import { Chip, Stack, Typography, Box, Grid, Button } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
+
 
 import ButtonAnimationWrapper from '@/components/ButtonAnimationWrapper';
 import { GraphicsCard } from '@/components/cards';
@@ -14,11 +16,12 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 import { getBackgroundDots } from '@/utils/getBackgroundDots';
 import Wave from '@/images/graphics/Wave';
 
-// Intersection Observer options
 const options = { root: null, rootMargin: '0px', threshold: 0.6 };
 
 export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoSrc, videoThumbnail }) {
   const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  
   const containerRef = useRef(null);
   const videoRef = useRef(null);
 
@@ -30,7 +33,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
 
   useEffect(() => {
     const targetDate = new Date('2025-03-12T00:00:00').getTime();
-
+    
     const updateTimer = () => {
       const now = new Date().getTime();
       const difference = targetDate - now;
@@ -80,7 +83,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
       <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
         <Box ref={containerRef}>
           {/* Header Section */}
-          <Stack sx={{ alignItems: 'center', gap: 1.5 }}>
+          <Stack sx={{ alignItems: 'center', gap: 1.5, textAlign: 'center' }}>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -91,7 +94,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.2 }}>
-              <Typography variant="h1" align="center" sx={{ maxWidth: 800 }}>
+              <Typography variant={isMobile ? 'h3' : 'h1'} sx={{ maxWidth: 800 }}>
                 {headLine}
               </Typography>
             </motion.div>
@@ -103,14 +106,14 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }}>
-              <Typography variant="h6" align="center" sx={{ color: 'text.secondary', maxWidth: 650 }}>
+              <Typography variant="h6" sx={{ color: 'text.secondary', maxWidth: 650 }}>
                 {captionLine}
               </Typography>
             </motion.div>
           </Stack>
 
           {/* Button & Timer */}
-          <Stack sx={{ alignItems: 'center', gap: 2, mt: 5 }}>
+          <Stack sx={{ alignItems: 'center', gap: 1, mt: 7 }}>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }}>
               <ButtonAnimationWrapper>
                 <Button
@@ -121,30 +124,32 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                 />
               </ButtonAnimationWrapper>
             </motion.div>
-
-            <Typography variant="h5" sx={{ fontWeight: 'bold', bgcolor: 'primary.light', color: 'primary.dark', px: 2, py: 1, borderRadius: 1, textAlign: 'center' }}>
+<br></br>
+            <Typography variant="h5" sx={{ fontWeight: 'bold', bgcolor: 'primary.light', color: 'primary.dark', px: 2, py: 1, borderRadius: 1 }}>
               The wait is until
             </Typography>
 
             {/* Countdown Timer */}
-            <Grid container spacing={2} sx={{ mt: 2, textAlign: 'center' }}>
+            <Grid container spacing={isMobile ? 1 : 2} sx={{ mt: 4, textAlign: 'center', justifyContent: 'center', display: 'flex' }}>
+
               {['Days', 'Hours', 'Minutes', 'Seconds'].map((label, index) => (
-                <Grid item xs={3} key={label}>
-                 <Box
-  sx={{
-    width: 290, // Ensuring square shape
-    height: 80, // Ensuring square shape
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    border: '2px solid',
-    borderColor: 'primary.main',
-    borderRadius: 2,
-    boxShadow: '0 0 15px rgba(0, 150, 255, 0.7)'
-  }}
->
-                    <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
+                <Grid item xs={3} sm={3} key={label}>
+                  <Box
+                    sx={{
+                      width: isMobile ? 80 : 120,
+                      height: isMobile ? 80 : 120,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      border: '2px solid',
+                      borderColor: 'primary.main',
+                      borderRadius: 2,
+                      boxShadow: '0 0 10px rgba(0, 150, 255, 0.6)',
+                      p: 1
+                    }}
+                  >
+                    <Typography variant={isMobile ? 'h5' : 'h4'} sx={{ fontWeight: 'bold' }}>
                       {[days, hours, minutes, seconds][index]}
                     </Typography>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -157,18 +162,9 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           </Stack>
 
           {/* Video Section */}
-          <motion.div initial={{ opacity: 0, y: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.5 }} style={{ scale }}>
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.5 }} style={{ scale }}>
             <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300', mt: 5 }}>
-              <video
-                playsInline
-                ref={videoRef}
-                width="100%"
-                height="100%"
-                style={{ borderRadius: 12 }}
-                poster={videoThumbnail}
-                loop
-                muted
-              >
+              <video playsInline ref={videoRef} width="100%" height="auto" style={{ borderRadius: 12 }} poster={videoThumbnail} loop muted>
                 <source src={videoSrc} type="video/mp4" />
               </video>
             </GraphicsCard>
