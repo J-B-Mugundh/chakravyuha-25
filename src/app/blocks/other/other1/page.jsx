@@ -13,7 +13,7 @@ const data = {
   primaryBtn: { children: 'Explore All Components', href: SECTION_PATH },
   sections: [
     {
-      title: 'Hero',
+      title: 'hero',
       subTitle: '16 Different Variants',
       image: `${imagePrefix}/hero-light.svg`,
       link: PAGE_PATH.hero
