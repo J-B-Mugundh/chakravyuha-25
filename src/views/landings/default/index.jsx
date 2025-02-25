@@ -37,15 +37,11 @@ export default function Main() {
 
   return (
     <>
-      {/* Add id="home" for navigation */}
-      <div id="home">
+      <div id="home"></div>
         <Hero17 {...hero} />
-      </div>
 
-      {/* Add id="about" for navigation */}
-      <div id="about">
+      <div id="about"></div>
         <AboutMIT />
-      </div>
 
       <AboutChakraVyuha />
       
