@@ -3,7 +3,7 @@ import { DOCS_URL } from '@/path';
 
 
 export const integration = {
-  headLine: 'Tailored for Every Industry',
+  headLine: 'Ready to Shine?',
   captionLine: 'Sponsoring Chakravyuha’25 provides extensive digital reach and engagement across multiple platforms, ensuring maximum brand visibility before, during, and after the event. Our active online presence across Instagram, LinkedIn, Twitter, and Facebook will showcase your brand to a vast audience of students, professionals, and tech enthusiasts.',
   primaryBtn: {
     children: 'Documentation',

@@ -48,16 +48,23 @@ export default function Main() {
       </div>
 
       <AboutChakraVyuha />
-
+      
       <LazySection
         sections={[
-          { importFunc: () => import('@/blocks/benefit').then((module) => ({ default: module.Benefit5 })), props: benefit },
-          { importFunc: () => import('@/blocks/integration').then((module) => ({ default: module.Integration2 })), props: integration },
+          { importFunc: () => import('@/blocks/benefit').then((module) => ({ default: module.Benefit5 })), props: benefit }
+        ]}
+        offset="200px"
+      />
+        
+      <div id="events"></div>  
+      <LazySection
+        sections={[
           { importFunc: () => import('@/blocks/other').then((module) => ({ default: module.Other1 })), props: other }
         ]}
         offset="200px"
       />
 
+      <div id="clubs"></div>  
       <LazySection
         sections={[
           { importFunc: () => import('@/blocks/feature').then((module) => ({ default: module.Feature18 })), props: feature18 },
@@ -65,19 +72,21 @@ export default function Main() {
         offset="200px"
       />
 
+      <div id="sponsors"></div>  
       <LazySection
         sections={[
+          { importFunc: () => import('@/blocks/integration').then((module) => ({ default: module.Integration2 })), props: integration },
           { importFunc: () => import('@/blocks/pricing').then((module) => ({ default: module.Pricing9 })), props: pricing }
         ]}
         offset="200px"
       />
 
-      <LazySection
+      {/* <LazySection
         sections={[
           { importFunc: () => import('@/blocks/faq').then((module) => ({ default: module.Faq6 })), props: faq }
         ]}
         offset="200px"
-      />
+      /> */}
 
       {/* Add id="contact" for navigation at the end */}
       <div id="contact"></div>

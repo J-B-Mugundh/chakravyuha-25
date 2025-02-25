@@ -75,11 +75,6 @@ export default function Integration2({ headLine, captionLine, primaryBtn, tagLis
                 <IntegrationTag key={index} {...integration} />
               ))}
             </Stack>
-            {primaryBtn && (
-              <ButtonAnimationWrapper>
-                <Button variant="contained" size="large" {...primaryBtn} />
-              </ButtonAnimationWrapper>
-            )}
           </Stack>
         </GraphicsCard>
       </motion.div>

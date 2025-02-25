@@ -9,11 +9,11 @@ const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 export const navbar = {
   customization: true,
   navItems: [
-    { id: 'home', title: 'Home', link: '#home' },  // Updated to match Main.js
-    { id: 'about', title: 'About Us', link: '#about' },  // Updated to match Main.js
+    { id: 'home', title: 'Home', link: '/' }, 
+    { id: 'about', title: 'About Us', link: '#about' },
     { id: 'events', title: 'Events', link: '#events' },
-    { id: 'contact', title: 'Contact Us', link: '#contact' },
     { id: 'clubs', title: 'Clubs', link: '#clubs' },
-    { id: 'sponsors', title: 'Sponsors', link: '#sponsors' }
+    { id: 'sponsors', title: 'Sponsors', link: '#sponsors' },
+    { id: 'contact', title: 'Contact Us', link: '#contact' }
   ]
 };

@@ -5,7 +5,7 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
 const title = `${branding.brandName} ${branding.title}`;
-const description = `${branding.brandName} is a cutting-edge software solution designed to revolutionize the way businesses operate. Our platform offers a comprehensive suite of features that enable businesses to streamline their operations, enhance productivity, and drive growth. With ${branding.brandName}, businesses can easily manage their customers, track sales, optimize marketing campaigns, and streamline their internal processes. Whether you're a startup or a large enterprise, ${branding.brandName} has the tools and expertise to help you succeed in today's fast-paced business landscape. Join the ${branding.brandName} community and experience the power of innovative software solutions for business success`;
+const description = `${branding.brandName} is a two-day fest where all technical clubs of MIT come together to host a dynamic lineup of events, workshops, and competitions—challenging minds, fostering collaboration, and pushing the boundaries of innovation. This fest is more than a competition; it is a battlefield of ideas, where the brightest minds will challenge the status quo, push boundaries, and forge the future.`;
 
 const ogCommonMetadata = {
   locale: 'en_US',
@@ -24,10 +24,10 @@ export const mainMetadata = {
   keywords: [
     'SaaS',
     `${branding.brandName}`,
-    'Software as a Service',
-    'Cloud-based software',
-    'Project management tools',
-    'Enterprise software'
+    'College',
+    'Techfest',
+    'Events',
+    'Workshops'
   ],
   creator: `${branding.company.name}`,
   metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),

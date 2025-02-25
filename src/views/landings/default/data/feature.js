@@ -356,75 +356,11 @@ export const feature18 = {
   topics: [
     {
       icon: 'tabler-rocket',
-      title: 'GDG - MIT',
-      title2: 'Be a Leader, Be a Creator, Be a Game Changer',
-      description: 'Google Developer Groups On Campus - MIT (GDG MIT) is a student-run community focused on fostering technological innovation and skill development. We provide a platform for students to learn, build, and connect with other developers. Through workshops, hackathons, and mentorship programs, we empower students to explore cutting-edge technologies and bring their ideas to life. Join us in shaping the future of tech!',
-      image: '/assets/images/clubs/gdg-logo.png',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'AUSEC - MIT',
-      title2: 'Your talent is our work',
-      description: 'Anna University Student Entrepreneurship Club - MIT (AUSEC-MIT) is a dynamic student-driven club that nurtures innovation and entrepreneurial spirit. AU-SEC provides a platform for students to ideate, network, and transform their business concepts into viable ventures through workshops, mentorship, and events. It aims to foster a strong entrepreneurial ecosystem on campus.',
-      image: '/assets/images/clubs/AUSEC-MIT.jpeg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'TEDcMIT',
-      title2: 'Inspire, Invent, Innovate',
-      description: 'The TED Club at our college is a vibrant community focused on inspiring and empowering students through the exchange of ideas. We organize two flagship events, Innovate (even semester) and Originate (odd semester), where we invite renowned speakers from various fields to share their journeys and insights. In addition to these events, we host regular discussions and idea-sharing sessions to foster creativity, innovation, and critical thinking. The club provides a platform for students to collaborate, engage with thought leaders, and actively shape their future by exploring new ideas and perspectives.',
-      image: '/assets/images/clubs/TEDcMIT logo.png',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'QUANTuMIT',
-      title2: 'Decipher the quantized',
-      description: 'The QUANTuMIT is a technical student club, stipulating an interactive and a comprehensible platform for the knowledge hunters, facilitating effective learning through mind-boggling discussions, events, sessions and competitions. It is highly imperative that the STEM community must be well-equipped about quantum computing and communication as we are witnessing the monumental outgrowth of computational and algorithmic applications of quantum physics, and hence here is the right solution in the form of QUANTuMIT.',
-      image: '/assets/images/clubs/QUANTuMIT.png',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'QCMIT',
-      title2: '',
-      description: 'The Quiz Club of MIT is the official quizzing club of the college, bringing together students who love learning and competing. We don’t just stick to regular quizzes—we add a twist to make them fun and engaging for everyone. Our club organizes and participates in various quizzing events, both within and outside the college. Regular sessions help members improve their trivia skills, teamwork, and critical thinking. The club strives to create an intellectually stimulating environment that nurtures curiosity and a thirst for knowledge.',
-      image: '/assets/images/clubs/QCMIT.jpeg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'MET',
-      title2: 'Engineering Innovation for a Safer Tomorrow',
-      description: 'MIT Meteorology Club aims to use “Engineering technologies and innovations” to develop the Meteorological field and help in Disaster Relief & Management. The team is dedicated to developing projects that apply engineering knowledge in meteorology, collaborating with IMD, creating high-quality and cost-effective disaster relief solutions, and supporting meteorology startups.',
-      image: '/assets/images/clubs/MET_Logo.png',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'தமிழ் மன்றம்',
-      title2: 'தாய் மொழி வழி சமூக முன்னேற்றம்',
-      description: 'மாணவர்களின் படைப்பாற்றலையும் கலைத்திறனையும் வெளிக்கொணர்வதற்கு அர்பணிக்கப்பட்ட களம் ஆகும். மாணவர்களின் இலக்கிய ஆர்வத்தை கூர்மையாக்குதல், அறிவியல் தமிழ் வளர்த்தல் மற்றும் சமூகப் பார்வையை விரிவாக்குதல் என்ற முனைப்புடன் செயல்படும். தாய் மொழியின் வளம்பாடும் வானம்பாடிகளாய் உளம் கொண்டு எழ இம்மன்றம் துணை நிற்கும். தாய்மொழி மூலம் தன்னம்பிக்கை ஊற்றெடுக்க தக்கதோர் வழிகாட்டியாய் செயல்படும். எனவே, இம்மன்றமானது தமிழை வளர்க்க பாடுபடும் – தலை நிமிர்ந்து நிற்கப் போராடும்.',
-      image: '/assets/images/clubs/TM_logo.png',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
-      title: 'CSMIT',
-      title2: '',
-      description: 'The Computer Society of MIT fosters coding skills and technical expertise for students across all disciplines. Associated with Dr. Kalam Computing Centre, it offers interdisciplinary learning and professional training to prepare students for industry demands. CSMIT conducts workshops, coding sessions, and placement training to equip students with real-world skills. It remains committed to nurturing innovation and technical excellence among aspiring technocrats.',
-      image: '/assets/images/clubs/CSMIT.jpg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
-    },
-    {
-      icon: 'tabler-rocket',
       title: 'MITRA',
       title2: 'To foster innovation and practical learning in Robotics and Automation',
       description: 'The Robotics Association that plays a pivotal role in enhancing the technical skills of the students, particularly in the fields of robotics, automation, and technology through bootcamps, workshops, and events aimed at equipping students with essential skills and knowledge and hosts the annual national-level technical symposium, Dexbot, which attracts participants from various colleges and showcases innovative projects and hands-on workshops. MITRA continues to foster a community that embraces technology and robotics, encouraging students to explore and excel in this rapidly evolving field.',
       image: '/assets/images/clubs/MITRA.jpeg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/src/MITRA/" }
     },
     {
       icon: 'tabler-rocket',
@@ -432,7 +368,47 @@ export const feature18 = {
       title2: '',
       description: 'An official aero-modelling club with three divisions: Rocketry, Fixed-Wing, and Multi-Copter. It provides hands-on experience, software training, and fosters innovation in aerospace engineering through design, building, and flight experiments, enhancing technical skills and practical knowledge in aeromodelling.',
       image: '/assets/images/clubs/raptorsclubmit.jpg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
+      actionBtn: { children: 'Learn More', href: "/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'CSMIT',
+      title2: '',
+      description: 'The Computer Society of MIT fosters coding skills and technical expertise for students across all disciplines. Associated with Dr. Kalam Computing Centre, it offers interdisciplinary learning and professional training to prepare students for industry demands. CSMIT conducts workshops, coding sessions, and placement training to equip students with real-world skills. It remains committed to nurturing innovation and technical excellence among aspiring technocrats.',
+      image: '/assets/images/clubs/CSMIT.jpg',
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/csmit/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'AUSEC - MIT',
+      title2: 'Your talent is our work',
+      description: 'Anna University Student Entrepreneurship Club - MIT (AUSEC-MIT) is a dynamic student-driven club that nurtures innovation and entrepreneurial spirit. AU-SEC provides a platform for students to ideate, network, and transform their business concepts into viable ventures through workshops, mentorship, and events. It aims to foster a strong entrepreneurial ecosystem on campus.',
+      image: '/assets/images/clubs/AUSEC-MIT.jpeg',
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/src/ausecmit/ausecmit.html" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'QUANTuMIT',
+      title2: 'Decipher the quantized',
+      description: 'The QUANTuMIT is a technical student club, stipulating an interactive and a comprehensible platform for the knowledge hunters, facilitating effective learning through mind-boggling discussions, events, sessions and competitions. It is highly imperative that the STEM community must be well-equipped about quantum computing and communication as we are witnessing the monumental outgrowth of computational and algorithmic applications of quantum physics, and hence here is the right solution in the form of QUANTuMIT.',
+      image: '/assets/images/clubs/QUANTuMIT.png',
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/src/quantum/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'QCMIT',
+      title2: '',
+      description: 'The Quiz Club of MIT is the official quizzing club of the college, bringing together students who love learning and competing. We don’t just stick to regular quizzes—we add a twist to make them fun and engaging for everyone. Our club organizes and participates in various quizzing events, both within and outside the college. Regular sessions help members improve their trivia skills, teamwork, and critical thinking. The club strives to create an intellectually stimulating environment that nurtures curiosity and a thirst for knowledge.',
+      image: '/assets/images/clubs/QCMIT.jpeg',
+      actionBtn: { children: 'Learn More', href: "/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'GDG - MIT',
+      title2: 'Be a Leader, Be a Creator, Be a Game Changer',
+      description: 'Google Developer Groups On Campus - MIT (GDG MIT) is a student-run community focused on fostering technological innovation and skill development. We provide a platform for students to learn, build, and connect with other developers. Through workshops, hackathons, and mentorship programs, we empower students to explore cutting-edge technologies and bring their ideas to life. Join us in shaping the future of tech!',
+      image: '/assets/images/clubs/gdg-logo.png',
+      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/" }
     },
     {
       icon: 'tabler-rocket',
@@ -440,15 +416,39 @@ export const feature18 = {
       title2: '',
       description: 'A platform for students to explore and innovate in the field of the Internet of Things. Through hands-on projects, industry internships, and technical workshops, the club equips members with practical skills and real-world experience. With access to cutting-edge technology and mentorship, students can build strong portfolios and stay ahead in this rapidly evolving field. The club also hosts CharIoT, its annual flagship event, bringing together enthusiasts to showcase innovations and engage with industry experts.',
       image: '/assets/images/clubs/IoT_logo.jpg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
+      actionBtn: { children: 'Learn More', href: "/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'TEDcMIT',
+      title2: 'Inspire, Invent, Innovate',
+      description: 'The TED Club at our college is a vibrant community focused on inspiring and empowering students through the exchange of ideas. We organize two flagship events, Innovate (even semester) and Originate (odd semester), where we invite renowned speakers from various fields to share their journeys and insights. In addition to these events, we host regular discussions and idea-sharing sessions to foster creativity, innovation, and critical thinking. The club provides a platform for students to collaborate, engage with thought leaders, and actively shape their future by exploring new ideas and perspectives.',
+      image: '/assets/images/clubs/TEDcMIT logo.png',
+      actionBtn: { children: 'Learn More', href: "http://www.tedc.mitindia.edu/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'MIT MET',
+      title2: 'Engineering Innovation for a Safer Tomorrow',
+      description: 'MIT Meteorology Club aims to use “Engineering technologies and innovations” to develop the Meteorological field and help in Disaster Relief & Management. The team is dedicated to developing projects that apply engineering knowledge in meteorology, collaborating with IMD, creating high-quality and cost-effective disaster relief solutions, and supporting meteorology startups.',
+      image: '/assets/images/clubs/MET_Logo.png',
+      actionBtn: { children: 'Learn More', href: "/" }
+    },
+    {
+      icon: 'tabler-rocket',
+      title: 'தமிழ் மன்றம்',
+      title2: 'தாய் மொழி வழி சமூக முன்னேற்றம்',
+      description: 'தமிழ் மன்றம் மாணவர்களின் படைப்பாற்றலையும் கலைத்திறனையும் வெளிக்கொணர்வதற்கு அர்பணிக்கப்பட்ட களம் ஆகும். மாணவர்களின் இலக்கிய ஆர்வத்தை கூர்மையாக்குதல், அறிவியல் தமிழ் வளர்த்தல் மற்றும் சமூகப் பார்வையை விரிவாக்குதல் என்ற முனைப்புடன் செயல்படும். தாய் மொழியின் வளம்பாடும் வானம்பாடிகளாய் உளம் கொண்டு எழ இம்மன்றம் துணை நிற்கும். தாய்மொழி மூலம் தன்னம்பிக்கை ஊற்றெடுக்க தக்கதோர் வழிகாட்டியாய் செயல்படும். எனவே, இம்மன்றமானது தமிழை வளர்க்க பாடுபடும் – தலை நிமிர்ந்து நிற்கப் போராடும்.',
+      image: '/assets/images/clubs/TM_logo.png',
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/src/tamilmandram/" }
     },
     {
       icon: 'tabler-rocket',
       title: 'PSMIT',
       title2: 'Every Moment. Every Story. Perfectly Captured.',
-      description: 'Our passionate and skilled photographers are the visual storytellers of the institute, capturing the vibrant energy, academic excellence, and innovative spirit that defines MIT. Our award-winning photographers consistently excel in capturing major MIT events, achievements, and milestones with exceptional skill, artistic vision, and meticulous attention to detail.',
+      description: '...',
       image: '/assets/images/clubs/Psmit logo.jpg',
-      actionBtn: { children: 'Learn More', href: "https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/"}
+      actionBtn: { children: 'Learn More', href: "/" }
     }
-  ]
+]
 };
