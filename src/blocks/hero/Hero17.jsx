@@ -32,7 +32,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
   const [timeLeft, setTimeLeft] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date('2025-03-12T00:00:00').getTime();
+    const targetDate = new Date('2025-03-08T00:00:00').getTime();
     
     const updateTimer = () => {
       const now = new Date().getTime();

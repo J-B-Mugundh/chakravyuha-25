@@ -416,7 +416,7 @@ export const feature18 = {
       title2: '',
       description: 'A platform for students to explore and innovate in the field of the Internet of Things. Through hands-on projects, industry internships, and technical workshops, the club equips members with practical skills and real-world experience. With access to cutting-edge technology and mentorship, students can build strong portfolios and stay ahead in this rapidly evolving field. The club also hosts CharIoT, its annual flagship event, bringing together enthusiasts to showcase innovations and engage with industry experts.',
       image: '/assets/images/clubs/IoT_logo.jpg',
-      actionBtn: { children: 'Learn More', href: "/" }
+      actionBtn: { children: 'Learn More', href: "https://www.ciot.mitindia.edu/" }
     },
     {
       icon: 'tabler-rocket',
@@ -446,7 +446,7 @@ export const feature18 = {
       icon: 'tabler-rocket',
       title: 'PSMIT',
       title2: 'Every Moment. Every Story. Perfectly Captured.',
-      description: '...',
+      description: 'Our passionate and skilled photographers are the visual storytellers of the institute, capturing the vibrant energy, academic excellence, and innovative spirit that defines MIT. Our award-winning photographers consistently excel in capturing major MIT events, achievements, and milestones with exceptional skill, artistic vision, and meticulous attention to detail.',
       image: '/assets/images/clubs/Psmit logo.jpg',
       actionBtn: { children: 'Learn More', href: "/" }
     }
