@@ -1,6 +1,4 @@
 import prettier from 'eslint-plugin-prettier';
-import typescriptEslint from '@typescript-eslint/eslint-plugin';
-import tsParser from '@typescript-eslint/parser';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import js from '@eslint/js';
@@ -21,29 +19,18 @@ export default [
   ...compat.extends('next/core-web-vitals', 'prettier'),
   {
     plugins: {
-      prettier,
-      '@typescript-eslint': typescriptEslint
+      prettier
     },
 
     languageOptions: {
-      parser: tsParser,
       ecmaVersion: 5,
-      sourceType: 'module',
-
-      parserOptions: {
-        project: './jsconfig.json',
-        createDefaultProgram: true
-      }
+      sourceType: 'module'
     },
 
     settings: {
       'import/resolver': {
         node: {
           moduleDirectory: ['node_modules', 'src/']
-        },
-
-        typescript: {
-          alwaysTryTypes: true
         }
       }
     },
@@ -59,12 +46,12 @@ export default [
       'import/order': 'off',
       'no-console': 'off',
       'no-shadow': 'off',
-      '@typescript-eslint/naming-convention': 'off',
-      '@typescript-eslint/no-explicit-any': 'warn',
       'import/no-cycle': 'off',
       'prefer-destructuring': 'off',
       'import/no-extraneous-dependencies': 'off',
       'react/display-name': 'off',
+      'react/no-unescaped-entities': 'off',
+      '@next/next/no-page-custom-font': 'off',
 
       'import/no-unresolved': [
         'off',
@@ -77,14 +64,6 @@ export default [
         'error',
         {
           patterns: ['@mui/*/*/*', '!@mui/material/test-utils/*']
-        }
-      ],
-
-      '@typescript-eslint/no-unused-vars': [
-        'error',
-        {
-          vars: 'all',
-          args: 'none'
         }
       ],
 
