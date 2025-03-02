@@ -1,5 +1,5 @@
 // @project
-import { PAGE_PATH, SECTION_PATH } from '@/path';
+import { SECTION_PATH } from '@/path';
 
 // @asssets
 const imagePrefix = '/assets/images/presentation';
