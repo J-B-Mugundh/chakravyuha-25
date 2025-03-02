@@ -230,7 +230,7 @@ const sections = [
     subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://forms.gle/EfEkv55GPkxocviCA',
+    link: 'https://docs.google.com/forms/d/14abc8waXn19Yv_Ue1kIKwMnoR3MGcm9JUxnm1GtCvag/edit',
     category: SectionCategory.Debates
   },
   {
@@ -243,18 +243,18 @@ const sections = [
   },
   {
     title: 'Introduction to Quantum Computing and Communication',
-    subTitle: 'Time: Mar 8th      venue: CT Seminar Hall ',
+    subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://forms.gle/kGSJUyrbw29PeaK48',
+    link: 'https://forms.gle/pyKacA9tHo4BYrkU9',
     category: SectionCategory.Workshop
   },
   {
     title: 'Introduction to Quantum Computing and Communication - (Combo Offer)',
-    subTitle: 'Time: Mar 8th      venue: CT Seminar Hall',
+    subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://forms.gle/o56MS5huH3WBjgvC7',
+    link: 'https://forms.gle/pyKacA9tHo4BYrkU9',
     category: SectionCategory.Workshop
   },
   {
@@ -463,7 +463,8 @@ const sections = [
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/1tj6pr6rwpLF9J9k6',
-    category: SectionCategory.Workshop
+    category: SectionCategory.Debates
+  },
   {
     title: 'Hunt & Hustle',
     subTitle: 'Time: Mar 8th&9th      venue: RLHC/CB Classroom',
