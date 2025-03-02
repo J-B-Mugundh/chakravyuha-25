@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 
 // @project
-import { PAGE_PATH } from '@/path';
+// import { PAGE_PATH } from '@/path';
 import { SEO_CONTENT } from '@/metadata';
 
 const Typography = dynamic(() => import('@/views/sections/Typography'));

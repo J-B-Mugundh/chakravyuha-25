@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 
 // @project
-import { PAGE_PATH } from '@/path';
+// import { PAGE_PATH } from '@/path';
 import { SEO_CONTENT } from '@/metadata';
 
 const Other = dynamic(() => import('@/views/sections/Other'));

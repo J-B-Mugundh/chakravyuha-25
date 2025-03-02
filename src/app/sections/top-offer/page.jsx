@@ -1,5 +1,5 @@
 // @project
-import { PAGE_PATH } from '@/path';
+// import { PAGE_PATH } from '@/path';
 import { SEO_CONTENT } from '@/metadata';
 
 import TopOffer from '@/views/sections/TopOffer';
