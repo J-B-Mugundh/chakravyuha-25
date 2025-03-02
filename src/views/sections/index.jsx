@@ -162,11 +162,11 @@ const sections = [
     category: SectionCategory.Robotics
   },
   {
-    title: 'Robotics Paper Presentation',
+    title: 'PAC BOT',
     subTitle: 'Time: Mar 8th      venue: RLHC',
     club:'Club: MITRA',
     image: `${imagePrefix}/cta-light.svg`,
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdRAO86e1RcyDDNbt8hiz-pajiK03LnCsDFa-FphFX1mXo8pQ/viewform?usp=header',
+    link: 'https://forms.gle/RodtKTHcYhxtceK86',
     category: SectionCategory.Robotics
   },
   {
@@ -186,7 +186,7 @@ const sections = [
     category: SectionCategory.Robotics
   },
   {
-    title: 'Robo War',
+    title: 'Robo Sumo',
     subTitle: 'Time: Mar 8th      venue: Connect Point',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
@@ -195,7 +195,7 @@ const sections = [
   },
   {
     title: 'ROS Workshop',
-    subTitle: 'Time: Mar 8th      venue: Connect Point',
+    subTitle: 'Time: Mar 9th      venue: ECE - Networking Lab',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScxxiUgHAqPIwMGZFXVvjdFWm0XQwA-Vjws-PkT9r8pWp758w/viewform?usp=header',
@@ -203,7 +203,7 @@ const sections = [
   },
   {
     title: 'AI in Robotics Workshop',
-    subTitle: 'Time: Mar 8th      venue: Connect Point',
+    subTitle: 'Time: Mar 8th&9th      venue: E&I - DCF - UG Lab',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScUsaB28xSNcjOspnAZZnDBFAv9cerQzOV8kRjTECrtSm4Vfg/viewform?usp=header',
@@ -211,7 +211,7 @@ const sections = [
   },
   {
     title: 'CAD Workshop ',
-    subTitle: 'Time: Mar 8th      venue: Connect Point',
+    subTitle: 'Time: Mar 9th      venue: CAD Lab PT',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScUsaB28xSNcjOspnAZZnDBFAv9cerQzOV8kRjTECrtSm4Vfg/viewform?usp=header',
@@ -219,7 +219,7 @@ const sections = [
   },
   {
     title: '3D Printing Workshop',
-    subTitle: 'Time: Mar 8th      venue: Connect Point',
+    subTitle: 'Time: Mar 9th      venue: PT SRK Hall',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSdFtsiMMWQyToiE_Oi8dqfVKV-rz_bZFe4hfmUto8tXsUFVOA/viewform?usp=header',
@@ -230,7 +230,7 @@ const sections = [
     subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://docs.google.com/forms/d/14abc8waXn19Yv_Ue1kIKwMnoR3MGcm9JUxnm1GtCvag/edit',
+    link: 'https://forms.gle/EfEkv55GPkxocviCA',
     category: SectionCategory.Debates
   },
   {
@@ -243,18 +243,18 @@ const sections = [
   },
   {
     title: 'Introduction to Quantum Computing and Communication',
-    subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
+    subTitle: 'Time: Mar 8th      venue: CT Seminar Hall',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://forms.gle/pyKacA9tHo4BYrkU9',
+    link: 'https://forms.gle/kGSJUyrbw29PeaK48',
     category: SectionCategory.Workshop
   },
   {
     title: 'Introduction to Quantum Computing and Communication - (Combo Offer)',
-    subTitle: 'Time: Mar 9th      venue: RLHC classroom ',
+    subTitle: 'Time: Mar 8th      venue: CT Seminar Hall',
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
-    link: 'https://forms.gle/pyKacA9tHo4BYrkU9',
+    link: 'https://forms.gle/o56MS5huH3WBjgvC7',
     category: SectionCategory.Workshop
   },
   {
@@ -433,14 +433,14 @@ const sections = [
     link: 'https://forms.gle/URd4hn3aq7PMqagW7',
     category: SectionCategory.Fun
   },
-  {
-    title: 'Quiz Contest',
-    subTitle: 'Time: Mar 8th      venue: ',
-    club:'Club: MET',
-    image: `${imagePrefix}/forgot-pass-light.svg`,
-    link: 'https://forms.gle/dJuhCYMUkZCk5pF7A',
-    category: SectionCategory.Debates
-  },
+  // {
+  //   title: 'Quiz Contest',
+  //   subTitle: 'Time: Mar 8th      venue: ',
+  //   club:'Club: MET',
+  //   image: `${imagePrefix}/forgot-pass-light.svg`,
+  //   link: 'https://forms.gle/dJuhCYMUkZCk5pF7A',
+  //   category: SectionCategory.Debates
+  // },
   {
     title: 'Quiz Contest',
     subTitle: 'Time: Mar 8th      venue: ',
@@ -455,7 +455,7 @@ const sections = [
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/GyRojAA62JnN5WZP6',
-    category: SectionCategory.Debates
+    category: SectionCategory.Workshop
   },
   {
     title: 'Sub-Sea Robotics Workshop',
@@ -463,7 +463,7 @@ const sections = [
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/1tj6pr6rwpLF9J9k6',
-    category: SectionCategory.Debates
+    category: SectionCategory.Workshop
   },
   {
     title: 'Hunt & Hustle',
@@ -476,15 +476,15 @@ const sections = [
   {
     title: 'Startup Streets: Monopoly Madness',
     subTitle: 'Time: Mar 8th      venue: Placement & Training Cell ',
-    club:'GDG',
+    club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
     link: 'https://forms.gle/s45LmM4fyoUdfEhJ6',
     category: SectionCategory.Debates
   },
   {
     title: 'The Founders Mindset Workshop',
-    subTitle: 'Time: Mar 8th      venue: Placement & Training Cell ',
-    club:'GDG',
+    subTitle: 'Time: Mar 9th      venue: GJ Block Conference Hall ',
+    club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
     link: 'https://forms.gle/KBi2khYxntUDnXQh9',
     category: SectionCategory.Workshop
