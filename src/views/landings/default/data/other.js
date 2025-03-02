@@ -17,42 +17,42 @@ export const other = {
       title: 'Street Coding',
       subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/hero-light.svg`,
-      link: PAGE_PATH.hero
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     },
     {
       animationDelay: 0.3,
       title: 'OSPC',
       subTitle: 'Time: Mar 8th&9th      venue: IT Lab',
       image: `${imagePrefix}/cta-light.svg`,
-      link: PAGE_PATH.cta
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     },
     {
       animationDelay: 0.4,
       title: 'Bug Hunt',
       subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/feature-light.svg`,
-      link: PAGE_PATH.feature
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     },
     {
       animationDelay: 0.2,
       title: 'My Sequel ',
       subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/benefits-light.svg`,
-      link: PAGE_PATH.benefit
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     },
     {
       animationDelay: 0.3,
       title: 'Sight on Site ',
       subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/process-light.svg`,
-      link: PAGE_PATH.process
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     },
     {
       animationDelay: 0.4,
       title: 'Tech Connector',
       subTitle: 'Time: Mar 8th&9th      venue: GROUND FLOOR LHC',
       image: `${imagePrefix}/integration-light.svg`,
-      link: PAGE_PATH.integration
+      link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing'
     }
   ]
 };

@@ -13,12 +13,12 @@ const data = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          Over 200+
+          Over 40+
         </Typography>
         <Chip
           label={
             <Typography variant="caption" sx={{ color: 'primary.main' }}>
-              Design Blocks
+              Events
             </Typography>
           }
           sx={{ height: 24, bgcolor: 'primary.lighter', mr: -1, ml: 0.75, '& .MuiChip-label': { px: 1.25 } }}
