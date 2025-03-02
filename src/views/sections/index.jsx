@@ -476,7 +476,7 @@ const sections = [
   {
     title: 'Startup Streets: Monopoly Madness',
     subTitle: 'Time: Mar 8th      venue: Placement & Training Cell ',
-    club:'GDG',
+    club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
     link: 'https://forms.gle/s45LmM4fyoUdfEhJ6',
     category: SectionCategory.Debates
@@ -484,7 +484,7 @@ const sections = [
   {
     title: 'The Founders Mindset Workshop',
     subTitle: 'Time: Mar 8th      venue: Placement & Training Cell ',
-    club:'GDG',
+    club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
     link: 'https://forms.gle/KBi2khYxntUDnXQh9',
     category: SectionCategory.Workshop
