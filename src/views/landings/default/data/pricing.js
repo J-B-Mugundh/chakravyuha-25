@@ -25,7 +25,7 @@ export const pricing = {
       featureTitle: 'Features',
       content: 'Learn more about the MIT',
       exploreLink: { children: 'Learn More', href: "/"},
-      featuresID: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      featuresID: [1, 2, 3, 4]
     },
     {
       title: 'Co Sponsor',
@@ -34,7 +34,7 @@ export const pricing = {
       featureTitle: 'Features',
       content: 'Learn more about the MIT',
       exploreLink: { children: 'Learn More', href: "/"},
-      featuresID: [5, 6, 7, 8, 9, 10, 11, 12]
+      featuresID: [5, 6, 7, 8]
     },
     {
       title: 'Event Sponsor',
