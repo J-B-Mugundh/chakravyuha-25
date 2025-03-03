@@ -163,7 +163,7 @@ const sections = [
   },
   {
     title: 'PAC BOT',
-    subTitle: 'Time: Mar 8th      venue: RLHC',
+    subTitle: 'Time: Mar 8th      venue: Connect Point',
     club:'Club: MITRA',
     image: `${imagePrefix}/cta-light.svg`,
     link: 'https://forms.gle/RodtKTHcYhxtceK86',
@@ -171,7 +171,7 @@ const sections = [
   },
   {
     title: 'Robo Rush',
-    subTitle: 'Time: Mar 8th      venue: Old PT Hut',
+    subTitle: 'Time: Mar 8th      venue: Old PT Dept',
     club:'Club: MITRA',
     image: `${imagePrefix}/blog-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSdKAvF3hwUIqSbCruBcDJHCGdendNbHjwNxtwhKFi1uZRlh1w/viewform?usp=header',
@@ -187,7 +187,7 @@ const sections = [
   },
   {
     title: 'Robo Sumo',
-    subTitle: 'Time: Mar 8th      venue: Connect Point',
+    subTitle: 'Time: Mar 8th      venue: Old PT Dept',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfns7_yz4KyJAOWlU0sZpm2VEIMh23N20rycj0JT3xI7yNpng/viewform?usp=header',
@@ -203,7 +203,7 @@ const sections = [
   },
   {
     title: 'AI in Robotics Workshop',
-    subTitle: 'Time: Mar 8th&9th      venue: E&I - DCF - UG Lab',
+    subTitle: 'Time: Mar 8th&9th      venue: EIE - DCF - UG Lab',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScUsaB28xSNcjOspnAZZnDBFAv9cerQzOV8kRjTECrtSm4Vfg/viewform?usp=header',
@@ -211,7 +211,7 @@ const sections = [
   },
   {
     title: 'CAD Workshop ',
-    subTitle: 'Time: Mar 9th      venue: CAD Lab PT',
+    subTitle: 'Time: Mar 9th      venue: CAD Lab PT Dept',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScUsaB28xSNcjOspnAZZnDBFAv9cerQzOV8kRjTECrtSm4Vfg/viewform?usp=header',
@@ -219,7 +219,7 @@ const sections = [
   },
   {
     title: '3D Printing Workshop',
-    subTitle: 'Time: Mar 9th      venue: PT SRK Hall',
+    subTitle: 'Time: Mar 9th      venue: SRK Hall(PT Dept)',
     club:'Club: MITRA',
     image: `${imagePrefix}/footer-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSdFtsiMMWQyToiE_Oi8dqfVKV-rz_bZFe4hfmUto8tXsUFVOA/viewform?usp=header',
@@ -263,59 +263,67 @@ const sections = [
     club:'Club: QUANTuMIT',
     image: `${imagePrefix}/team-light.svg`,
     link: 'https://forms.gle/qX9YCPwoe7mJUd7o7',
-    category: SectionCategory.Workshop
+    category: SectionCategory.Debates
   },
   {
     title: 'Reverse Engineer Jam (Web / App / Design) ',
     club:'Club: GDG',
-    subTitle: 'Time: Mar 8th      venue: CB Lab',
+    subTitle: 'Time: Mar 8th      venue: PPL Lab',
     image: `${imagePrefix}/contact-us-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
     category: SectionCategory.Coding
   },
   {
     title: 'Tech Cipher Hunt',
-    subTitle: 'Time: Mar 8th      venue: LHC / RLHC / CT Dept',
+    subTitle: 'Time: Mar 8th      venue: CT Dept',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
     category: SectionCategory.Coding
   },
   {
     title: 'hack & Seek',
-    subTitle: 'Time: Mar 8th      venue: LHC / RLHC / CT Dept',
+    subTitle: 'Time: Mar 8th      venue: PPL Lab',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
     category: SectionCategory.Coding
   },
   {
-    title: 'Machine Learning in Action: Code, Build, Deploy',
-    subTitle: 'Time: Mar 8th      venue: LHC / RLHC / CT Dept',
+    title: 'Machine Learning in Action: Code, Build, Deploy (Workshop)',
+    subTitle: 'Time: Mar 8th      venue: CT Conference Hall',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
     category: SectionCategory.Workshop
   },
   {
-    title: 'Full Stack Web Development',
-    subTitle: 'Time: Mar 8th      venue: LHC / RLHC / CT Dept',
+    title: 'Full Stack Web Development (Workshop)',
+    subTitle: 'Time: Mar 8th      venue: HPC Lab',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
-    category: SectionCategory.Coding
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
+    category: SectionCategory.Workshop
   },
   {
-    title: 'Build Gen AI Apps with Gemini: Hands On',
-    subTitle: 'Time: Mar 8th      venue: LHC / RLHC / CT Dept',
+    title: 'Build Gen AI Apps with Gemini: Hands On (Workshop)',
+    subTitle: 'Time: Mar 9th      venue: CT Conference Hall',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
-    link: 'https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/',
-    category: SectionCategory.Coding
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
+    category: SectionCategory.Workshop
+  },
+  {
+    title: 'Mastering DSA Patterns: Crack Any Problem in Interviews (Workshop)',
+    subTitle: 'Time: Mar 9th      venue: HPC Lab',
+    club:'Club: GDG',
+    image: `${imagePrefix}/gallery-light.svg`,
+    link: 'https://forms.gle/ke5HiBCz2UQiLypm6',
+    category: SectionCategory.Workshop
   },
   {
     title: 'Mission planer software Workshop',
-    subTitle: 'Time: Mar 8th      venue: ALHC/RLHC ,OAT',
+    subTitle: 'Time: Mar 8th      venue: RLHC',
     club:'Club: Raptors',
     image: `${imagePrefix}/sign-in-light.svg`,
     link: 'https://forms.gle/PBibmrkgER42rLKY9',
@@ -331,7 +339,7 @@ const sections = [
   },
   {
     title: 'Rocket Building Workshop',
-    subTitle: 'Time: Mar 8th      venue: ALHC/RLHC ,OAT',
+    subTitle: 'Time: Mar 9th      venue: RLHC',
     club:'Club: Raptors',
     image: `${imagePrefix}/sign-in-light.svg`,
     link: 'https://forms.gle/vCGAehpCSGH7QLNF8',
@@ -339,7 +347,7 @@ const sections = [
   },
   {
     title: 'CAD Workshop',
-    subTitle: 'Time: Mar 8th      venue: ALHC/RLHC ,OAT',
+    subTitle: 'Time: Mar 9th      venue: CAD Lab (PT Dept)',
     club:'Club: Raptors',
     image: `${imagePrefix}/sign-in-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScXPyBVzSPL3UsvyHHg0y0OWcoIYhgmYHFZifR_CVWh7XtJug/viewform?usp=header',
@@ -347,7 +355,7 @@ const sections = [
   },
   {
     title: 'OptiCircuit',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/sign-up-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScwBUqXrPg0YXyZ0plJnB5oqNSimt4QASM2gRbLCq5Qe-qa0Q/viewform',
@@ -355,7 +363,7 @@ const sections = [
   },
   {
     title: 'IoT IQ Test',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/pricing-light.svg`,
     link: 'https://docs.google.com/forms/d/1-cOsqQwu7Lokd9ddtF20u8YeCoH0Fg0KyoBYIvRm-aw/edit?ts=67c2e4bb',
@@ -363,15 +371,15 @@ const sections = [
   },
   {
     title: 'Innovate & Illuminate: The Future Unveiled in Papers',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/pricing-light.svg`,
-    link: 'https://docs.google.com/forms/d/1-cOsqQwu7Lokd9ddtF20u8YeCoH0Fg0KyoBYIvRm-aw/edit?ts=67c2e4bb',
-    category: SectionCategory.Workshop
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfn0SfcaJ2iN5N47MtZtip3fRzNu74QcTDEQPmGYWceD_zZEg/viewform?usp=sharing',
+    category: SectionCategory.Iot
   },
   {
     title: 'LOLT: Laughing Out Loud with IoT',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/small-hero-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd0hswW6H1Jng8QKurnDrIWh2VVPoFH787JQI6ae7uVQQBygw/viewform',
@@ -379,7 +387,7 @@ const sections = [
   },
   {
     title: 'Hack the Grid: IoT Treasure Hunt Adventure',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/cookies-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfJrgk3mSi58Wd-xoD8dU0ytVU2eEYlePqlTF4fYD1OuZYavA/viewform',
@@ -387,7 +395,7 @@ const sections = [
   },
   {
     title: 'IoT Photography contest ',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8Jksgw25mUtR-Cj3NcLBNuynRclliJMTaKzgI1KKFIsUXEQ/viewform',
@@ -395,7 +403,7 @@ const sections = [
   },
   {
     title: 'Recent Trends in IoT Workshop',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://forms.gle/wBFdqHTpmmvS8ab47',
@@ -403,7 +411,7 @@ const sections = [
   },
   {
     title: 'Iotrix - Innovative sustainability (Hackthon',
-    subTitle: 'Time: Mar 8th      venue: RLHC/LHC',
+    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://forms.gle/mDSRdpSge9qLazp58',
@@ -419,7 +427,7 @@ const sections = [
   },
   {
     title: 'Climate Debate',
-    subTitle: 'Time: Mar 9th      venue: LHC',
+    subTitle: 'Time: Mar 8th      venue: RLHC Conf. Hall',
     club:'Club: MET',
     image: `${imagePrefix}/content-light.svg`,
     link: 'https://forms.gle/uLeW5KfDfabC898K6',
@@ -427,7 +435,7 @@ const sections = [
   },
   {
     title: 'Engineering Link-Up',
-    subTitle: 'Time: Mar 8th      venue: ',
+    subTitle: 'Time: Mar 8th      venue: RLHC ',
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/URd4hn3aq7PMqagW7',
@@ -442,16 +450,8 @@ const sections = [
   //   category: SectionCategory.Debates
   // },
   {
-    title: 'Quiz Contest',
-    subTitle: 'Time: Mar 8th      venue: ',
-    club:'Club: MET',
-    image: `${imagePrefix}/forgot-pass-light.svg`,
-    link: 'https://forms.gle/dJuhCYMUkZCk5pF7A',
-    category: SectionCategory.Debates
-  },
-  {
     title: 'Technology For Climate Compatible Growth Workshop',
-    subTitle: 'Time: Mar 8th      venue: ',
+    subTitle: 'Time: Mar 8th      venue: PT Dept F12',
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/GyRojAA62JnN5WZP6',
@@ -459,7 +459,7 @@ const sections = [
   },
   {
     title: 'Sub-Sea Robotics Workshop',
-    subTitle: 'Time: Mar 8th      venue: ',
+    subTitle: 'Time: Mar 9th      venue: RLHC',
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/1tj6pr6rwpLF9J9k6',
@@ -467,7 +467,7 @@ const sections = [
   },
   {
     title: 'Hunt & Hustle',
-    subTitle: 'Time: Mar 8th&9th      venue: RLHC/CB Classroom',
+    subTitle: 'Time: Mar 8th&9th      venue: CB Classroom',
     club:'Club: AUSEC',
     image: `${imagePrefix}/new-pass-light.svg`,
     link: 'https://forms.gle/o4sgQ1224hXXrj1GA',
@@ -475,7 +475,7 @@ const sections = [
   },
   {
     title: 'Startup Streets: Monopoly Madness',
-    subTitle: 'Time: Mar 8th      venue: Placement & Training Cell ',
+    subTitle: 'Time: Mar 8th      venue: Placement Cell, Admin Block',
     club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
     link: 'https://forms.gle/s45LmM4fyoUdfEhJ6',
@@ -514,14 +514,14 @@ const sections = [
     image: `${imagePrefix}/maintenance-light.svg`,
     link: 'https://forms.gle/MT521xEKDAg8UfWn7',
     category: SectionCategory.Debates
+  },
+  {
+    title: 'Innovate',
+    subTitle: 'Time: Mar 8th      venue: Rajam Hall',
+    image: `${imagePrefix}/coming-soon-light.svg`,
+    link: 'https://forms.gle/b66LZrsr2B5DrMWg6',
+    category: SectionCategory.Fun
   }
-  // {
-  //   title: 'Coming Soon',
-  //   subTitle: 'Time: Mar 8th      venue: ',
-  //   image: `${imagePrefix}/coming-soon-light.svg`,
-  //   link: PAGE_PATH.comingSoon,
-  //   category: SectionCategory.MARKETING
-  // },
   // {
   //   title: 'Early Access',
   //   subTitle: 'Time: Mar 8th      venue: ',
