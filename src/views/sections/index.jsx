@@ -518,6 +518,7 @@ const sections = [
   {
     title: 'Innovate',
     subTitle: 'Time: Mar 8th      venue: Rajam Hall',
+    club:'Club: TEDcMIT',
     image: `${imagePrefix}/coming-soon-light.svg`,
     link: 'https://forms.gle/b66LZrsr2B5DrMWg6',
     category: SectionCategory.Fun
