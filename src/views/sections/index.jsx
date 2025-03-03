@@ -266,7 +266,7 @@ const sections = [
     category: SectionCategory.Debates
   },
   {
-    title: 'Reverse Engineer Jam (Web / App / Design) ',
+    title: 'Reverse Engineer Jam',
     club:'Club: GDG',
     subTitle: 'Time: Mar 8th      venue: PPL Lab',
     image: `${imagePrefix}/contact-us-light.svg`,
@@ -282,7 +282,7 @@ const sections = [
     category: SectionCategory.Coding
   },
   {
-    title: 'hack & Seek',
+    title: 'Hack & Seek',
     subTitle: 'Time: Mar 8th      venue: PPL Lab',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
@@ -314,7 +314,7 @@ const sections = [
     category: SectionCategory.Workshop
   },
   {
-    title: 'Mastering DSA Patterns: Crack Any Problem in Interviews (Workshop)',
+    title: 'Mastering DSA Patterns: Crack the Code for Problem Solving (Workshop)',
     subTitle: 'Time: Mar 9th      venue: HPC Lab',
     club:'Club: GDG',
     image: `${imagePrefix}/gallery-light.svg`,
