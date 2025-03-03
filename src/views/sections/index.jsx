@@ -355,7 +355,7 @@ const sections = [
   },
   {
     title: 'OptiCircuit',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: RHLC',
     club:'Club: IoT',
     image: `${imagePrefix}/sign-up-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLScwBUqXrPg0YXyZ0plJnB5oqNSimt4QASM2gRbLCq5Qe-qa0Q/viewform',
@@ -363,7 +363,7 @@ const sections = [
   },
   {
     title: 'IoT IQ Test',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: RLHC',
     club:'Club: IoT',
     image: `${imagePrefix}/pricing-light.svg`,
     link: 'https://docs.google.com/forms/d/1-cOsqQwu7Lokd9ddtF20u8YeCoH0Fg0KyoBYIvRm-aw/edit?ts=67c2e4bb',
@@ -379,7 +379,7 @@ const sections = [
   },
   {
     title: 'LOLT: Laughing Out Loud with IoT',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: Online',
     club:'Club: IoT',
     image: `${imagePrefix}/small-hero-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd0hswW6H1Jng8QKurnDrIWh2VVPoFH787JQI6ae7uVQQBygw/viewform',
@@ -387,7 +387,7 @@ const sections = [
   },
   {
     title: 'Hack the Grid: IoT Treasure Hunt Adventure',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: RLHC',
     club:'Club: IoT',
     image: `${imagePrefix}/cookies-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfJrgk3mSi58Wd-xoD8dU0ytVU2eEYlePqlTF4fYD1OuZYavA/viewform',
@@ -395,7 +395,7 @@ const sections = [
   },
   {
     title: 'IoT Photography contest ',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: Online',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8Jksgw25mUtR-Cj3NcLBNuynRclliJMTaKzgI1KKFIsUXEQ/viewform',
@@ -403,15 +403,15 @@ const sections = [
   },
   {
     title: 'Recent Trends in IoT Workshop',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    subTitle: 'Time: Mar 8th      venue: ECE Dept Lab',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://forms.gle/wBFdqHTpmmvS8ab47',
     category: SectionCategory.Workshop
   },
   {
-    title: 'Iotrix - Innovative sustainability (Hackthon',
-    subTitle: 'Time: Mar 8th      venue: Centre of IoT',
+    title: 'Iotrix - Innovative sustainability (Hackthon)',
+    subTitle: 'Time: Mar 8th      venue: ECE Dept Seminar Hall',
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://forms.gle/mDSRdpSge9qLazp58',
