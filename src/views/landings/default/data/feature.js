@@ -424,7 +424,7 @@ export const feature18 = {
       title2: 'Inspire, Invent, Innovate',
       description: 'The TED Club at our college is a vibrant community focused on inspiring and empowering students through the exchange of ideas. We organize two flagship events, Innovate (even semester) and Originate (odd semester), where we invite renowned speakers from various fields to share their journeys and insights. In addition to these events, we host regular discussions and idea-sharing sessions to foster creativity, innovation, and critical thinking. The club provides a platform for students to collaborate, engage with thought leaders, and actively shape their future by exploring new ideas and perspectives.',
       image: '/assets/images/clubs/TEDcMIT logo.png',
-      actionBtn: { children: 'Learn More', href: "http://www.tedc.mitindia.edu/" }
+      actionBtn: { children: 'Learn More', href: "https://clubs.mitindia.edu/src/TedcMit/" }
     },
     {
       icon: 'tabler-rocket',
