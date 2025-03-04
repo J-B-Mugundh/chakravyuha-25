@@ -42,6 +42,7 @@ var SectionCategory;
   SectionCategory['Iot'] = 'Iot';
   SectionCategory['Workshop'] = 'Workshop';
   SectionCategory['Fun'] = 'Fun';
+  SectionCategory['Hackthon'] = 'Hackthon';
 })(SectionCategory || (SectionCategory = {}));
 
 const imagePrefix = '/assets/images/presentation';
@@ -143,7 +144,7 @@ const sections = [
     club:'Club: CSMIT',
     image: `${imagePrefix}/integration-light.svg`,
     link: 'https://clubs.mitindia.edu/csmit/carteblanche/#pricing',
-    category: SectionCategory.Workshop
+    category: SectionCategory.Hackthon
   },
   {
     title: 'Syntax Skit',
@@ -415,7 +416,7 @@ const sections = [
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://forms.gle/mDSRdpSge9qLazp58',
-    category: SectionCategory.Workshop
+    category: SectionCategory.Hackthon
   },
   {
     title: 'Technical Escape Challenge ',
@@ -588,7 +589,8 @@ const filterList = [
   { title: 'Technical competition and debates', value: SectionCategory.Debates },
   { title: 'IoT and Electronics', value: SectionCategory.Iot },
   { title: 'Workshops', value: SectionCategory.Workshop },
-  { title: 'Fun Events', value: SectionCategory.Fun }
+  { title: 'Fun Events', value: SectionCategory.Fun },
+  { title: 'Hackthon', value: SectionCategory.Hackthon}
 ];
 
 /***************************  SECTIONS LAYOUT  ***************************/
