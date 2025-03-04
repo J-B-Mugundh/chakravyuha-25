@@ -383,7 +383,7 @@ const sections = [
     club:'Club: IoT',
     image: `${imagePrefix}/small-hero-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd0hswW6H1Jng8QKurnDrIWh2VVPoFH787JQI6ae7uVQQBygw/viewform',
-    category: SectionCategory.Iot
+    category: SectionCategory.Fun
   },
   {
     title: 'Hack the Grid: IoT Treasure Hunt Adventure',
@@ -399,7 +399,7 @@ const sections = [
     club:'Club: IoT',
     image: `${imagePrefix}/top-offer-bar-light.svg`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8Jksgw25mUtR-Cj3NcLBNuynRclliJMTaKzgI1KKFIsUXEQ/viewform',
-    category: SectionCategory.Iot
+    category: SectionCategory.Fun
   },
   {
     title: 'Recent Trends in IoT Workshop',
@@ -459,7 +459,7 @@ const sections = [
   },
   {
     title: 'Sub-Sea Robotics Workshop',
-    subTitle: 'Time: Mar 9th      Venue: RLHC',
+    subTitle: 'Time: Mar 8th      Venue: SRK Hall',
     club:'Club: MET',
     image: `${imagePrefix}/forgot-pass-light.svg`,
     link: 'https://forms.gle/1tj6pr6rwpLF9J9k6',
@@ -486,7 +486,7 @@ const sections = [
     subTitle: 'Time: Mar 9th      Venue: GJ Block Conference Hall ',
     club:'Club: AUSEC',
     image: `${imagePrefix}/otp-gen-light.svg`,
-    link: 'https://forms.gle/KBi2khYxntUDnXQh9',
+    link: 'https://docs.google.com/forms/d/1M-zL2Nx_CBZhbz6VpIr0p8Y4g7NEHvrfST2efX1Kg2o/edit?usp=drivesdk',
     category: SectionCategory.Workshop
   },
   {
