@@ -394,14 +394,14 @@ const sections = [
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfJrgk3mSi58Wd-xoD8dU0ytVU2eEYlePqlTF4fYD1OuZYavA/viewform',
     category: SectionCategory.Iot
   },
-  {
-    title: 'IoT Photography contest ',
-    subTitle: 'Time: Mar 8th      Venue: Online',
-    club:'Club: IoT',
-    image: `${imagePrefix}/top-offer-bar-light.svg`,
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8Jksgw25mUtR-Cj3NcLBNuynRclliJMTaKzgI1KKFIsUXEQ/viewform',
-    category: SectionCategory.Fun
-  },
+  // {
+  //   title: 'IoT Photography contest ',
+  //   subTitle: 'Time: Mar 8th      Venue: Online',
+  //   club:'Club: IoT',
+  //   image: `${imagePrefix}/top-offer-bar-light.svg`,
+  //   link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8Jksgw25mUtR-Cj3NcLBNuynRclliJMTaKzgI1KKFIsUXEQ/viewform',
+  //   category: SectionCategory.Fun
+  // },
   {
     title: 'Recent Trends in IoT Workshop',
     subTitle: 'Time: Mar 8th      Venue: ECE Dept Lab',
